@@ -1,4 +1,4 @@
-package br.com.aula6;
+package br.com.rjchaves.aula6;
 
 
 public class Exercicio1 {
