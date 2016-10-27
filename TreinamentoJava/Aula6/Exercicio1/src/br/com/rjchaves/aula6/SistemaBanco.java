@@ -2,9 +2,9 @@ package br.com.rjchaves.aula6;
 
 import java.util.Scanner;
 
-import br.com.aula6.Usuario.Cliente;
-import br.com.aula6.Usuario.UsuarioBanco;
-import br.com.aula6.banco.Caixa;
+import br.com.rjchaves.aula6.Usuario.Cliente;
+import br.com.rjchaves.aula6.Usuario.UsuarioBanco;
+import br.com.rjchaves.aula6.banco.Caixa;
 
 public class SistemaBanco {
 	private Caixa caixa;

@@ -1,4 +1,4 @@
-package br.com.aula6.banco;
+package br.com.rjchaves.aula6.banco;
 
 
 public class Caixa {
