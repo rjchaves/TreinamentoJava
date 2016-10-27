@@ -1,6 +1,10 @@
-package br.com.aula6;
+package br.com.aula6.Usuario;
 
 import java.util.Scanner;
+
+import br.com.aula6.Impressao;
+import br.com.aula6.banco.Caixa;
+import br.com.aula6.banco.Montante;
 
 public class Cliente {
 	private Caixa caixa;

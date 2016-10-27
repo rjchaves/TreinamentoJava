@@ -1,4 +1,4 @@
-package br.com.aula6;
+package br.com.aula6.banco;
 
 public enum EnumCedulas {
 	CEM(100), CINQUENTA(50), VINTE(20), DEZ(10), CINCO(5), DOIS(2);

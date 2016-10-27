@@ -1,4 +1,5 @@
-package br.com.aula6;
+package br.com.aula6.banco;
+
 
 public class Caixa {
 	private Montante montante;

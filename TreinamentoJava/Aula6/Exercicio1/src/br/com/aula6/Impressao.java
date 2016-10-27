@@ -1,5 +1,7 @@
 package br.com.aula6;
 
+import br.com.aula6.banco.EnumCedulas;
+import br.com.aula6.banco.Montante;
 
 public class Impressao {
 

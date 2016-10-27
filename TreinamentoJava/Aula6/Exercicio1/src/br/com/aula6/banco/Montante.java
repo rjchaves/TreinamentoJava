@@ -1,4 +1,4 @@
-package br.com.aula6;
+package br.com.aula6.banco;
 
 import java.util.ArrayList;
 import java.util.HashMap;
