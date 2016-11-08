@@ -81,10 +81,13 @@ public class Montante {
 		int totalCedulas = valor/e.getValorNota();
 		int valorMaximoCedulas = maxCedulas*e.getValorNota(); 
 		if(valorMaximoCedulas>valor){ ///Evitar que sejam emitidas mais cedulas do que existem no caixa :p 
-			
 			if(e.getValorNota()%2 !=0 ){ ///Cedulas ímpares
 				if(valor%e.getValorNota()!=0){
-					return (totalCedulas-1);
+					if(totalCedulas>0){
+						return (totalCedulas-1);
+					}else{
+						return 0;
+					}
 				}
 			}
 			return totalCedulas;
