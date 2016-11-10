@@ -1,0 +1,7 @@
+package br.com.rjchaves.aula14.exercicio7;
+
+public class MissingArgumentsMainException extends Exception {
+	public MissingArgumentsMainException() {
+		super();
+	}
+}

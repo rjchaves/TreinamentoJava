@@ -1,0 +1,7 @@
+package br.com.rjchaves.aula14.exercicio8.exception;
+
+public class NoUpperCaseException {
+	public NoUpperCaseException(int indiceCaractere) {
+		super("O caractere na posição \'"+indiceCaractere+"\' da string não é uma letra");
+	}
+}

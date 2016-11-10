@@ -1,0 +1,15 @@
+package br.com.rjchaves.aula14.exercicio5;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		try {
+			String s1 = input.nextLine();
+			String s2 = input.nextLine();
+		} catch (NullPointerException e) {
+			// TODO: handle exception
+		}
+	}
+}
