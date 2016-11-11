@@ -1,6 +1,0 @@
-INDEX VERSION 1.129+C:\Users\angrymouse\projetos\META\TreinamentoJava\TreinamentoJava\Aula14\.metadata\.plugins\org.eclipse.jdt.core
-413578445.index
-3879218710.index
-2005349255.index
-2117173164.index
-154554170.index

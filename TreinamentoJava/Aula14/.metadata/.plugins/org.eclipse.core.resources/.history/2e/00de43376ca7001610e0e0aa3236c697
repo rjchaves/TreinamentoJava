@@ -1,9 +1,0 @@
-package br.com.rjchaves.aula14.exercicio8;
-
-public class StringProcessor {
-	public void isUpperCase(String str) {
-		for(int i = 0; i<str.length(); i++){
-			
-		}
-	}
-}
