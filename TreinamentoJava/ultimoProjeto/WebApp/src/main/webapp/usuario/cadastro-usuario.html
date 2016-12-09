@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Inserir Usuário</title>
+
+</head>
+<body>
+	<div class="col-md-12">
+	<label for="selecao-tipo-usuario">Escolha o tipo do usuário</label>
+		<div id="selecao-tipo-usuario">
+			<label class="col-md-2"><input type="radio" name="op-usuario" value="cliente" checked>Cliente</label>
+			<label class="col-md-2"><input type="radio" name="op-usuario" value="funcionario">Funcionário</label>
+		</div>
+	</div>
+	
+	<div class="col-md-12">
+		<div class="col-md-3">
+			<label for="nome-usuario">Nome do usuário</label><br /> 
+			<input type="text" class="form-control input-usuario" width="70" id="nome-usuario"><br />
+		</div>
+		<div class="col-md-3">
+			<label for="email-usuario">E-mail</label><br /> 
+			<input type="text" class="form-control input-usuario" width="200" id="email-usuario"><br />
+		</div>
+		<div class="col-md-3">
+			<label for="telefone-usuario">Telefone</label><br /> 
+			<input type="text" class="form-control input-usuario" width="30" id="telefone-usuario"><br />
+		</div>
+
+		<div class="col-md-3">
+			<label for="celular-usuario">Celular</label><br /> 
+			<input type="text" class="form-control input-usuario" width="30" id="celular-usuario"><br />
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="col-md-6">
+			<label for="rua-usuario">Rua</label><br /> 
+			<input type="text" class="form-control input-usuario" id="rua-usuario"><br />
+		</div>
+		
+		<div class="col-md-2 col-md-offset-1">
+			<label for="numero-rua-usuario">Numero</label><br /> 
+			<input type="number" class="form-control input-usuario" id="numero-rua-usuario"><br />
+		</div>
+		
+		<div class="col-md-2 col-md-offset-1">
+			<label for="complemento-rua-usuario">Complemento</label><br /> 
+			<input type="text" class="form-control input-usuario" id="complemento-rua-usuario"><br />
+		</div>
+	</div>
+	
+	<div class="col-md-12">
+		<div class="col-md-4">
+			<label for="cidade-usuario">Cidade</label><br /> 
+			<input type="text" class="form-control input-usuario" id="cidade-usuario"><br />
+		</div>
+		
+		<div class="col-md-4 col-md-offset-1">
+			<label for="bairro-usuario">Bairro</label><br /> 
+			<input type="text" class="form-control input-usuario" id="bairro-usuario"><br />
+		</div>
+		
+		<div class="col-md-2">
+			<label for="estado-usuario">Estado</label><br /> 
+			<input type="text" class="form-control input-usuario" id="estado-usuario"><br />
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="col-md-4">
+			<label for="cep-usuario">CEP</label><br /> 
+			<input type="text" class="form-control input-usuario" id="cep-usuario"><br />
+		</div>
+	</div>
+	
+	<div class="col-md-12" id="form-funcionario" style="display:none">
+	
+		<div class="col-md-4">
+			<label for="login-funcionario">Login</label><br /> 
+			<input type="text" class="form-control input-funcionario" id="login-funcionario"><br />
+		</div>
+		<div class="col-md-4">
+			<label for="senha-funcionario">Senha</label><br /> 
+			<input type="password" class="form-control input-funcionario" id="senha-funcionario"><br />
+		</div>
+		
+		<div class="col-md-4">
+			<label for="salario-funcionario">Salário</label><br /> 
+			<input type="text" class="form-control input-funcionario" pattern="\d{6}.\d{2}" id="salario-funcionario"><br />
+		</div>
+	</div>
+	
+	<div class="col-md-12">
+		<div class="col-md-2 col-md-offset-5">
+			<button id="submeter-usuario" class="btn btn-large" onclick="cadastrarUsuario();">Submeter</button>
+		</div>
+	</div>
+
+
+
+</body>
+<script src="resources/js/usuario.js"></script>
+</html>

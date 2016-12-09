@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/WebApp/resources/css/bootstrap.min.css">
+</head>
+<body>
+	
+	<div>
+		<h4>Cadastro de Filme</h4>
+	</div>
+	<br />
+	
+	<div>		
+		<label for="descricao">Descricao do filme</label><br />
+		<input type="text" width="200" id="descricao-filme"><br />
+		
+		<label for="ano">Ano do filme</label><br />
+		<input type="text" id="ano-filme"><br />
+		
+		<label for="resumo"> Resumo do filme </label><br />
+		<input type="text" width="200" id="resumo-filme"><br />
+		
+		<label for="classificacao"> Classificação do filme</label><br />
+		<input type="text" id="classificacao-filme"><br />
+		
+		<label for="duracao"> Duração do Filme</label><br />
+		<input type="text" id="duracao-filme"><br />
+		
+		<label for="categoria-filme"> Escolha uma categoria</label><br />
+		<select class="selectpicker" id="categoria-filme">
+		
+		</select><br/>
+		
+		<button onclick="cadastrarFilme();">Criar filme</button>
+	</div>
+	
+
+
+	<script src="/WebApp/resources/js/jquery.min.js"></script>
+	<script src="/WebApp/resources/js/bootstrap.min.js"></script>
+	<script src="/WebApp/resources/js/filme.js"></script>
+</body>
+</html>
